@@ -56,7 +56,6 @@
         isError = !editContext.Validate();
         StateHasChanged();
     }
-
     public void Dispose()
     {
         editContext.OnFieldChanged -= HandleFieldChanged;
